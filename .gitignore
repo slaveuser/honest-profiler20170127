@@ -1,0 +1,46 @@
+
+# binaries
+build*
+target/
+
+# Gradle
+.gradle
+!build.gradle
+
+# vim
+*.swp
+
+# JDK crashes
+hs_err_pid*
+
+# output files
+log-*.hpl
+dump.hpl
+traces.txt
+
+# IDE
+.idea
+*.iml
+
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+
+src/test/resources/private_logs/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+Testing
+
+/.classpath
+/.project
+.settings
+
+/bin/
